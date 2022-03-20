@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="RegisterForm.php">
+        <label for="name">Nombre: <input type="text" name="user_name" id="name"></label><br><br>
+        <label for="lastname">Apellidos: <input type="text" name="user_lastname" id="lastname"></label><br><br>
+        <label for="sex">Sexo: <input type="radio" name="user_sex" id="sex"> hombre <input type="radio" name="user_sex"
+                id="sex"> mujer</label><br><br>
+        <label for="email">Correo: <input type="email" name="user_email" id="email"></label><br><br>
+        <label for="population">Población: <select name="user_population" id="population">
+                <option value="Alicante">Alicante</option>
+                <option value="Anda a saber">Anda a saber</option>
+                <option value="Algun lado">Algun lado</option>
+            </select></label> <br><br>
+        <label for="description">Descripción:<textarea name="user_description" id="description" cols="50"
+                rows="6"></textarea></label><br><br>
+        <label for="checkbox1"> <input type="checkbox" name="user_check1" id="checkbox1"> Deseo recibir información
+            sobre novedades y ofertas<label><br><br>
+                <label for="checkbox2"> <input type="checkbox" name="user_check2" id="checkbox2"> Declaro haber leido y
+                    aceptar las condiciones generales del programa y la
+                    normativa sobre la protección de datos<label><br><br>
+                        <input type="button" value="Enviar">
+    </form>
+</body>
+
+</html>
