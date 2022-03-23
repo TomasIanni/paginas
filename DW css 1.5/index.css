@@ -1,7 +1,6 @@
-
 h3{
     color: blue;
 }
-.tools{
+.tools *{
     color: brown;
 }
